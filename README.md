@@ -50,7 +50,7 @@ Linux下C++轻量级Web服务器，助力初学者快速实践网络编程，搭
 
     ```C++
     //数据库登录名,密码,库名
-    string user = "root";
+    string user = "root";//不用变，就用"root"
     string passwd = "root";
     string databasename = "yourdb";
     ```
