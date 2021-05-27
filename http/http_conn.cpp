@@ -475,7 +475,7 @@ http_conn::HTTP_CODE http_conn::do_request()
     else if (*(p + 1) == '5')
     {
         char *m_url_real = (char *)malloc(sizeof(char) * 200);
-        strcpy(m_url_real, "/picture.html");
+        strcpy(m_url_real, "/introduction.html");
         strncpy(m_real_file + len, m_url_real, strlen(m_url_real));
 
         free(m_url_real);
@@ -483,7 +483,7 @@ http_conn::HTTP_CODE http_conn::do_request()
     else if (*(p + 1) == '6')
     {
         char *m_url_real = (char *)malloc(sizeof(char) * 200);
-        strcpy(m_url_real, "/video.html");
+        strcpy(m_url_real, "/RunningNotes.html");
         strncpy(m_real_file + len, m_url_real, strlen(m_url_real));
 
         free(m_url_real);
@@ -491,7 +491,7 @@ http_conn::HTTP_CODE http_conn::do_request()
     else if (*(p + 1) == '7')
     {
         char *m_url_real = (char *)malloc(sizeof(char) * 200);
-        strcpy(m_url_real, "/fans.html");
+        strcpy(m_url_real, "/other.html");
         strncpy(m_real_file + len, m_url_real, strlen(m_url_real));
 
         free(m_url_real);
