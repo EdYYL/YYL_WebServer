@@ -2,7 +2,6 @@
 	* Ubuntu版本16.04
 	* MySQL版本5.7.29
 * 浏览器测试环境
-	* Windows、Linux均可
 	* Chrome
 	* FireFox
 	* 其他浏览器暂无测试
